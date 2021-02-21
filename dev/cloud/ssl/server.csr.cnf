@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = trackchip
+distinguished_name = dn
+
+[dn]
+C=FR
+ST=Ile de France
+L=Paris
+O=Polytech
+OU=POL
+emailAddress=track_chip@yopmail.com
+CN = localhost

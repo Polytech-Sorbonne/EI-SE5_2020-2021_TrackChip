@@ -1,0 +1,8 @@
+*.net
+*.bck
+*.dcm
+
+*-cache*
+*-table*
+*-rescue*
+*-bak

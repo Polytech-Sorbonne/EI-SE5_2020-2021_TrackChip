@@ -51,7 +51,10 @@ https://backend.sigfox.com/auth/login
 
 ### Serveur
 Le serveur est un ensemble de programmes gérant le site Web ainsi que la base de donnée. 
-Il peut être hebergé sur une machine locale, ou bien sur internet via un VPS. 
+Il peut être hebergé sur une machine locale, ou bien sur internet via un VPS.
+Afin d'avoir accès aux nombreux service de géolocalisation (carte, itinéraire, etc), nous avons utilisé différentent APIs fournit par Google.
+Ces APIs nécéssitent une clés pour pouvoir y accéder que vous devrez générer en créant d'abord un compte Google Cloud Platform. 
+Puis en copiant, collant votre clés à la place de la notre dans le fichier dev/cloud/php/map.php à la ligne 44 dans le lien du script.
 En local, on peut lancer le site avec les commandes suivantes :
 ```
 $ cd /path/to/sources
